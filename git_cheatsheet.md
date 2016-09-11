@@ -67,5 +67,15 @@
 - http://techacademy.jp/magazine/6235
 
 #### memo
-- commitの-aオプションでは、新規ファイルは勝手に追加されず、変更があったもののみaddされる感じ。  
-- pull requestとは、管理者に対してコード変更をお願いする仕組み？
+- commitの-aオプションでは、新規ファイルは勝手に追加されず、変更があったもののみaddされる感じ。
+
+#### pull requestの手順
+1. `git branch "new-branch"`でブランチ作成
+2. `git checkout "new-branch"`でブランチ移動
+	+ `git checkout -b "new-branch"`で作成と移動が両方できる？
+3. コード修正、追加...
+4. `git add`および`git commit`でローカルリポジトリにコミット
+5. `git push -u origin "new-branch"`でリモートリポジトリのブランチにプッシュ
+6. githubのweb上でpull requestボタンを押す.
+7. 議論してmasterブランチにマージ
+8. うまくマージできたらブランチを消す？
