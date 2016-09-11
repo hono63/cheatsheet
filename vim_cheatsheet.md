@@ -1,56 +1,65 @@
-vim�`�[�g�V�[�g
+vimチートシート
 
-�߂�
-u
-��蒼��
-<c-r>
+`u`  
+戻す
 
-�J�[�\�����̃t�@�C�����J��
-gf
-�J�����g�f�B���N�g�������݂̃t�@�C���̏ꏊ�ɂ���
-:lcd %:h
-��, �O�̃^�u�Ɉړ�
-gt gT
-�O��A����̃W�����v�ʒu��
-<c-o>, <c-i>
-100�s�ڂփW�����v
-:100
-�s���̎��A�O�̂��̕����ʒu�փW�����v
-f  F + letter
-���̌�J��Ԃ�
-;  ,
-�ŋ߂̕ύX�ӏ��֖߂�A�i��
-g;  g,
+`<ctrl-r>`  
+やり直す
 
+`gf`  
+カーソル下のファイルを開く
 
-�w���v������
-:help "�R�}���h��"
+`:lcd %:h`  
+カレントディレクトリを現在のファイルの場所にする
 
-�J�[�\���ʒu�ɂ���P�������
-*
-�u�� %�͍��J���Ă���t�@�C���Ag�͍s���̃}�b�`���������S�Ēu�� c�͈��m�F
-:%s/word0/word1/gc
-�����B�W���A�����[�h����:s�������ΑI��͈͓��̕�����u���ł���
-����������:s�������Ό�������������u���ł���
+`gt gT`  
+次, 前のタブに移動
 
-����grep
-:vim word directory
-��,�O�̃}�b�`�����փW�����v
-:cn  :cp
-�N�C�b�N�t�B�b�N�X�̉�ʂ����
-:ccl
+`<c-o>` `<c-i>`  
+前回、次回のジャンプ位置へ
 
-��ʂ��㉺�ɕ���
-:split (:sp)
-���E�ɕ���
-:vsplit
-�ʂ̃E�B���h�E�ֈړ�
-<c-w> w
+`:100`  
+100行目へジャンプ
 
-�L�[�}�N���̋L�^�J�n
-qa
-�L�^�I��
-q
-���W�X�^a�ɕۑ����ꂽ�}�N�������s
-@a
+`f[letter]` `F[letter]`  
+行内の次、前のその文字位置へジャンプ  
+`;` `,`  
+その後繰り返し
 
+`g;` `g,`  
+最近の変更箇所へ戻る、進む
+
+`:help "コマンド名"`  
+ヘルプを見る
+
+`*`  
+カーソル位置にある単語を検索
+
+`:%s/word0/word1/gc`  
+置換
+- %は今開いているファイル
+- gは行内のマッチした文字全て置換
+- cは一つ一つ確認
+  + ヴィジュアルモード中に:sを押せば選択範囲内の文字を置換できる
+  + 検索中に:sを押せば検索した文字を置換できる
+
+`:vim word directory`  
+内部grep  
+`:cn  :cp`  
+次,前のマッチ部分へジャンプ  
+`:ccl`  
+クイックフィックスの画面を閉じる
+
+`:split (:sp)`  
+画面を上下に分割  
+`:vsplit`  
+左右に分割  
+`<c-w> w`  
+別のウィンドウへ移動
+
+`qa`  
+キーマクロの記録開始  
+`q`  
+記録終了  
+`@a`  
+レジスタaに保存されたマクロを実行
