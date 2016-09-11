@@ -20,3 +20,4 @@
 - markdown\_cheatsheet
 - vim\_cheatsheet
 - Atom\_cheatsheet
+- linux_cheatsheet
