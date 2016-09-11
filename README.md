@@ -13,6 +13,7 @@
 
 ライセンスの追加の仕方
 - http://qiita.com/shibukk/items/67ad0a5eda5a94e5c032
+- http://akiza-cb.hatenablog.com/entry/2016/01/18/215156
 
 ### cheat sheets
 - git\_cheatsheet

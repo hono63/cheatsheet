@@ -36,6 +36,13 @@
 `git push -u origin master`
 - 共有リポジトリにローカルの作業内容をプッシュする
 
+`git pull --rebase origin master`
+- リモートリポジトリの内容をローカルディレクトリにコピーする
+	+ `git fetch`と`git merge`を同時に行うのが`git pull`らしい
+		* `fetch`はリモートリポジトリの追跡内容をローカルに持ってくる（まだ作業ディレクトリは変更されない）
+		* `merge`でブランチ同士を結合
+	+ `--rebase`はマージのログを残さない方法？
+
 `git branch [branch-name]`
 - ブランチの作成
 
