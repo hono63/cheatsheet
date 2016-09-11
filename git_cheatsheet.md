@@ -65,3 +65,7 @@
 #### 参考URL
 - http://tracpath.com/bootcamp/learning_git_firststep.html
 - http://techacademy.jp/magazine/6235
+
+#### memo
+- commitの-aオプションでは、新規ファイルは勝手に追加されず、変更があったもののみaddされる感じ。  
+- pull requestとは、管理者に対してコード変更をお願いする仕組み？

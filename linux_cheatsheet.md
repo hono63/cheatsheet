@@ -144,4 +144,4 @@ hostの逆引きをする
 `!!` 最後に実行したコマンドを繰り返す  
 
 ### 参考
-- https://www.usptomo.com/TOMONOKAI_CMS/POMPA/20101124/aho.jpg
+- https://www.usptomo.com/PAGE=20101124
