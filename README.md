@@ -8,6 +8,5 @@
 - .gitignore
 
 ### cheat sheets
-- git cheatsheet
-- 
-
+- git\_cheatsheet
+- markdown\_cheatsheet
