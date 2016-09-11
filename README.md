@@ -6,6 +6,13 @@
 |:--|:--|
 |2016/09/11| 新規作成|
 
+### cheat sheets
+- git\_cheatsheet
+- markdown\_cheatsheet
+- vim\_cheatsheet
+- Atom\_cheatsheet
+- linux_cheatsheet
+
 ### gitリポジトリに追加した方が良いもの：
 - README
 - LISENCE
@@ -18,10 +25,3 @@
 .gitignoreは無視するファイルリスト  
 以下からテンプレートをコピーしてくるのが良い
 - https://github.com/github/gitignore
-
-### cheat sheets
-- git\_cheatsheet
-- markdown\_cheatsheet
-- vim\_cheatsheet
-- Atom\_cheatsheet
-- linux_cheatsheet
