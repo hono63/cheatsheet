@@ -15,6 +15,10 @@
 - http://qiita.com/shibukk/items/67ad0a5eda5a94e5c032
 - http://akiza-cb.hatenablog.com/entry/2016/01/18/215156
 
+.gitignoreは無視するファイルリスト  
+以下からテンプレートをコピーしてくるのが良い
+- https://github.com/github/gitignore
+
 ### cheat sheets
 - git\_cheatsheet
 - markdown\_cheatsheet
