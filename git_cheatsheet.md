@@ -8,9 +8,13 @@
 
 `git add [ファイル名]`
 - 変更したファイル/ディレクトリを索引(index)に追加  
+- `-f`オプションで無視リストに入っていても強制的に追加。
 
 `git add *`
 - 変更したファイル全てをindexに追加
+
+`git reset HEAD [ファイル名]`
+- 追加したファイルを取り消す。
 
 `git commit -m "コミットメッセージ"`
 - 変更内容がindexからコミットされ、HEADに格納される(共有リポジトリにはまだ反映されていない)
@@ -36,6 +40,7 @@
 
 `git push -u origin master`
 - 共有リポジトリにローカルの作業内容をプッシュする
+	+ `-u`オプションは「ローカルブランチとリモート追跡ブランチを紐付ける」。次回から自動で`git branch --set-upstream-to=origin/master`をやってくれる。
 
 `git pull --rebase origin master`
 - リモートリポジトリの内容をローカルディレクトリにコピーする
@@ -66,6 +71,9 @@
 
 `git grep [search-word]`
 - リポジトリのファイルの内容から検索
+
+`git rm --cached [ファイル名]`
+- 管理対象から削除(ファイル自体は削除されない)
 
 #### 参考URL
 - http://tracpath.com/bootcamp/learning_git_firststep.html
